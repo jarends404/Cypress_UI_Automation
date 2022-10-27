@@ -1,0 +1,19 @@
+{
+  "name": "cypress-ui-automation",
+  "version": "1.0.0",
+  "description": "example Cypress automation project for the TA Days 2022",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test": "cypress run"
+  },
+  "author": "J.M. Arends",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
